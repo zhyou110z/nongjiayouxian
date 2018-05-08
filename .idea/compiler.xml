@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-parent" />
+        <module name="common-utils" />
+        <module name="nongjiayouxian-server" />
+        <module name="nongjiayouxian-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-parent" target="1.7" />
+      <module name="common-utils" target="1.7" />
+      <module name="nongjiayouxian-manager" target="1.7" />
+      <module name="nongjiayouxian-server" target="1.7" />
+      <module name="nongjiayouxian-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
